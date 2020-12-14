@@ -1,0 +1,147 @@
+{
+	"components": [
+		{
+			"name": "hero",
+			"fields": {
+				"title": "Let us solve your critical website development challenges",
+				"body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus",
+				"link": {
+					"title": "Contact with Us",
+					"url": "/contact"
+				},
+				"image": "/banner-art.svg"
+			}
+		},
+		{
+			"name": "grid",
+			"fields": {
+				"title": "Something You Need To Know",
+				"items": [
+					{
+						"title": "Clean Code",
+						"body": "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil",
+						"icon": "ti-pulse"
+					},
+					{
+						"title": "Object Oriented",
+						"body": "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil",
+						"icon": "ti-package"
+					},
+					{
+						"title": "24h Service",
+						"body": "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil",
+						"icon": "ti-alarm-clock"
+					},
+					{
+						"title": "Value for Money",
+						"body": "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil",
+						"icon": "ti-credit-card"
+					},
+					{
+						"title": "Faster Response",
+						"body": "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil",
+						"icon": "ti-headphone-alt"
+					},
+					{
+						"title": "Cloud Support",
+						"body": "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil",
+						"icon": "ti-cloud-up"
+					}
+				]
+			}
+		},
+		{
+			"name": "image_text_block",
+			"fields": {
+				"title": "It is the most advanced digital marketing and it company.",
+				"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat.",
+				"background": "",
+				"link": {
+					"title": "Check it out",
+					"url": "/",
+					"alt": "all"
+				},
+				"image": {
+					"position": "right",
+					"url": "/service-3.png",
+					"alt": "Net income chart"
+				}
+			}
+		},
+		{
+			"name": "image_text_block",
+			"fields": {
+				"title": "It is a privately owned Information and cyber security company",
+				"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat.",
+				"background": "blue",
+				"link": {
+					"title": "Check it out",
+					"url": "/"
+				},
+				"image": {
+					"position": "left",
+					"url": "/service-1.png",
+					"alt": "Revenue chart"
+				}
+			}
+		},
+		{
+			"name": "image_text_block",
+			"fields": {
+				"title": "It’s a team of experienced and skilled people with distributions",
+				"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat.",
+				"background": "",
+				"link": {
+					"title": "Check it out",
+					"url": "/"
+				},
+				"image": {
+					"position": "right",
+					"url": "/service-2.png",
+					"alt": "Generic bar chart"
+				}
+			}
+		},
+		{
+			"name": "image_text_block",
+			"fields": {
+				"title": "A company standing different from others",
+				"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat.",
+				"background": "blue",
+				"link": {
+					"title": "Check it out",
+					"url": "/"
+				},
+				"image": {
+					"position": "left",
+					"url": "/service-3.png"
+				}
+			}
+		},
+		{
+			"name": "banner",
+			"fields": {
+				"title": "Experience the best workflow with us",
+				"image": {
+					"url": "/screenshot.svg",
+					"alt": "People doing different marketing activities"
+				}
+			}
+		},
+		{
+			"name": "cta",
+			"fields": {
+				"title": "Ready to get started?",
+				"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur.",
+				"image": {
+					"alt": "Two people building a webpage",
+					"url": "/cta.svg"
+				},
+				"link": {
+					"url": "/contact",
+					"title": "Contact Us"
+				}
+			}
+		}
+	]
+}
