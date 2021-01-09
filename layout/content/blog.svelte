@@ -1,6 +1,14 @@
 <script>
-    import Pagination from '../components/pagination.svelte';
-    export let title, allContent;
+  import Pagination from '../components/pagination.svelte';
+  export let title, allContent, content;
+
+  $: currentPage = content.pager;
+  let postsPerPage = 3;
+  let allPosts = allContent.filter(content => content.type == "posts");
+  let totalPosts = allPosts.length;
+  let totalPages = Math.ceil(totalPosts / postsPerPage);
+  $: postRangeHigh = currentPage * postsPerPage;
+  $: postRangeLow = postRangeHigh - postsPerPage;
 </script>
 
 <section class="section pb-0">
@@ -27,21 +35,23 @@
       </div>
       {/each}
       
-      {#each allContent.filter(content => content.type == "posts") as post}
-        <div class="col-lg-4 col-sm-6 mb-5">
-            <div class="card border-0">
-            <img src="/assets/{post.fields.image.src}" alt="{post.fields.image.alt}" class="card-img rounded-lg mb-4">
-            <div class="card-body p-0">
-                <h3><a href="{post.path}" class="post-title">{post.fields.title}</a></h3>
-                <p class="card-text">{post.fields.body.substring(0, 175).replace(/(<([^>]+)>)/gi, "")}</p>
-                <a href="{post.path}" class="btn btn-primary btn-sm">Read More</a>
+      {#each allPosts as post, i}
+        {#if i >= postRangeLow && i < postRangeHigh}
+            <div class="col-lg-4 col-sm-6 mb-5">
+                <div class="card border-0">
+                <img src="/assets/{post.fields.image.src}" alt="{post.fields.image.alt}" class="card-img rounded-lg mb-4">
+                <div class="card-body p-0">
+                    <h3><a href="{post.path}" class="post-title">{post.fields.title}</a></h3>
+                    <p class="card-text">{post.fields.body.substring(0, 175).replace(/(<([^>]+)>)/gi, "")}</p>
+                    <a href="{post.path}" class="btn btn-primary btn-sm">Read More</a>
+                </div>
+                </div>
             </div>
-            </div>
-        </div>
+        {/if}
       {/each}
       
       <div class="col-12">
-        <Pagination />
+        <Pagination {currentPage} {totalPages} />
       </div>
     </div>
   </div>
