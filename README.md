@@ -1,6 +1,6 @@
 # Bigspring
 
-![Screenshot of Bigspring theme showing menu and hero image of two people designing a website](blob/main/assets/bigspring.png?raw=true "Bigspring Plenti Theme")
+![Screenshot of Bigspring theme showing menu and hero image of two people designing a website](assets/bigspring.png?raw=true "Bigspring Plenti Theme")
 
 ## Adding Bigspring as a theme to existing Plenti site
 1. Download as theme: `plenti theme add git@github.com:plenti-themes/bigspring`
