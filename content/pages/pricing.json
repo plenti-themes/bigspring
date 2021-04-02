@@ -1,0 +1,80 @@
+{
+	"components": [
+        {
+            "name": "page_title",
+            "fields": {
+                "title": "Pricing"
+            }
+        },
+		{
+			"name": "pricing",
+			"fields": {
+				"items": [
+					{
+						"title": "Basic Plan",
+						"price": "$19",
+						"interval": "month",
+						"body": "Best For Small Individuals",
+						"features": [
+							"Express Service",
+							"Customs Clearance",
+							"Time-Critical Services"
+						],
+						"link": {
+							"title": "Get Started For Free",
+							"url": "/"
+						}
+					},
+					{
+						"title": "Professional Plan",
+						"price": "$49",
+						"interval": "month",
+						"body": "Best For Professionals",
+						"features": [
+							"Express Service",
+							"Customs Clearance",
+							"Time-Critical Services",
+							"Cloud Service",
+							"Best Dashboard"
+						],
+						"link": {
+							"title": "Get Started For Free",
+							"url": "/"
+						}
+					},
+					{
+						"title": "Business Plan",
+						"price": "$99",
+						"interval": "month",
+						"body": "Best For Large Enterprises",
+						"features": [
+							"Express Service",
+							"Customs Clearance",
+							"Time-Critical Services"
+						],
+						"link": {
+							"title": "Get Started For Free",
+							"url": "/"
+						}
+					}
+				]
+
+			}
+		},
+		{
+			"name": "cta",
+			"fields": {
+				"title": "Ready to get started?",
+				"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur.",
+				"image": {
+					"alt": "Two people building a webpage",
+					"url": "/cta.svg"
+				},
+				"link": {
+					"url": "/contact",
+					"title": "Contact Us"
+				}
+			}
+		}
+	]
+}
