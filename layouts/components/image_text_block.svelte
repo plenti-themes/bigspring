@@ -47,7 +47,10 @@
     text-decoration: none;
   }
   .ti-arrow-right {
-    transition: padding-left ease .5s;
+    transition: padding-left ease .25s;
+  }
+  .btn-link:hover {
+    color: #1e8685;
   }
   .btn-link:hover .ti-arrow-right {
     padding-left: 5px;
