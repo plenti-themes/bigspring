@@ -89,4 +89,11 @@
     border-color: #0aa8a7 !important;
     color: #0aa8a7;
   }
+  :global(a, a:hover, a:focus) {
+    text-decoration: none;
+  }
+  :global(a, button, select) {
+    cursor: pointer;
+    transition: .2s ease;
+  }
 </style>

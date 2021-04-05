@@ -73,8 +73,4 @@
   a.post-title:hover {
     color: #0aa8a7;
   }
-  a, button, select {
-    cursor: pointer;
-    transition: .2s ease;
-  }
 </style>

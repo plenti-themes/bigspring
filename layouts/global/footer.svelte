@@ -48,3 +48,16 @@
     </div>
   </div>
 </footer>
+
+<style>
+  .footer-list a {
+    display: block;
+    padding: 5px 0;
+    font-size: 16px;
+    color: #777;
+    margin: 8px 0;
+  }
+  .footer-list a:hover {
+    color: #0aa8a7;
+  }
+</style>
