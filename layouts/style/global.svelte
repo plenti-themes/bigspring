@@ -8,6 +8,9 @@
   :global(h4, .h4) {
     font-size: 20px;
   }
+  :global(body) {
+    color: #777;
+  }
   :global(.section) {
     padding-top: 70px;
     padding-bottom: 70px;
@@ -68,5 +71,22 @@
     transition: inherit;
     background-color: inherit;
     border: 1px solid transparent;
+  }
+  :global(.btn-outline-primary::before) {
+    border-color: #0aa8a7;
+  }
+  :global(.btn-outline-primary) {
+    background-color: initial;
+    color: #222;
+    border-color: transparent;
+  }
+  :global(.btn:hover::before, .btn:active::before, .btn:focus::before) {
+    height: 110%;
+    width: 110%;
+  }
+  :global(.btn-outline-primary:active, .btn-outline-primary:hover, .btn-outline-primary.focus, .btn-outline-primary.active) {
+    background-color: initial !important;
+    border-color: #0aa8a7 !important;
+    color: #0aa8a7;
   }
 </style>

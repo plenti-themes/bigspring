@@ -23,7 +23,9 @@
 						"link": {
 							"title": "Get Started For Free",
 							"url": "/"
-						}
+						},
+						"wrapper_classes": "mb-5 mb-lg-0 px-3 pr-3 px-lg-0",
+						"class_classes": ""
 					},
 					{
 						"title": "Professional Plan",
@@ -40,7 +42,9 @@
 						"link": {
 							"title": "Get Started For Free",
 							"url": "/"
-						}
+						},
+						"wrapper_classes": "col-recommended",
+						"card_classes": "-lg border-0"
 					},
 					{
 						"title": "Business Plan",
@@ -55,7 +59,9 @@
 						"link": {
 							"title": "Get Started For Free",
 							"url": "/"
-						}
+						},
+						"wrapper_classes": "mb-5 mb-lg-0 px-3 pr-3 px-lg-0",
+						"card_classes": ""
 					}
 				]
 

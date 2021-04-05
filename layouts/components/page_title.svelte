@@ -6,3 +6,9 @@
     <h1 class="display-3">{title}</h1>
   </div>
 </section>
+
+<style>
+  .display-3 {
+    font-size: 3.5rem;
+  }
+</style>

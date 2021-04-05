@@ -1,0 +1,20 @@
+{
+	"components": [
+        {
+            "name": "page_title",
+            "fields": {
+                "title": "Contact Us"
+            }
+        },
+		{
+			"name": "contact_form",
+			"fields": {
+				"title": "Why you should contact us!",
+				"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt.",
+				"phone": "+88 125 256 452",
+				"email": "test@example.com",
+				"address": "360 Main rd, Rio, Brazil"
+			}
+		}
+	]
+}
