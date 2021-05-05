@@ -68,7 +68,7 @@ function create_fragment(ctx) {
 			attr(div0, "class", "col-lg-8 mx-auto text-center");
 			attr(div1, "class", "row");
 			attr(div2, "class", "container");
-			if (img.src !== (img_src_value = "/assets" + /*image*/ ctx[1].url)) attr(img, "src", img_src_value);
+			if (img.src !== (img_src_value = "assets" + /*image*/ ctx[1].url)) attr(img, "src", img_src_value);
 			attr(img, "alt", img_alt_value = /*image*/ ctx[1].alt);
 			attr(img, "class", "img-fluid w-100");
 			attr(section, "class", "section pb-0");
@@ -86,7 +86,7 @@ function create_fragment(ctx) {
 		p(ctx, [dirty]) {
 			if (dirty & /*title*/ 1) set_data(t0, /*title*/ ctx[0]);
 
-			if (dirty & /*image*/ 2 && img.src !== (img_src_value = "/assets" + /*image*/ ctx[1].url)) {
+			if (dirty & /*image*/ 2 && img.src !== (img_src_value = "assets" + /*image*/ ctx[1].url)) {
 				attr(img, "src", img_src_value);
 			}
 

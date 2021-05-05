@@ -113,7 +113,7 @@ function create_fragment(ctx) {
 			attr(a, "href", a_href_value = /*link*/ ctx[2].url);
 			attr(a, "class", "btn-link svelte-1wmgenm");
 			attr(div0, "class", div0_class_value = "col-md-6 order-" + /*textPos*/ ctx[4] + " order-md-" + /*textPosMD*/ ctx[5] + " svelte-1wmgenm");
-			if (img.src !== (img_src_value = "/assets" + /*image*/ ctx[3].url)) attr(img, "src", img_src_value);
+			if (img.src !== (img_src_value = "assets" + /*image*/ ctx[3].url)) attr(img, "src", img_src_value);
 			attr(img, "alt", img_alt_value = /*image*/ ctx[3].alt);
 			attr(img, "class", "img-fluid");
 			attr(div2, "class", div2_class_value = "col-md-6 order-" + /*imgPos*/ ctx[6] + " order-md-" + /*imgPosMD*/ ctx[7] + " mb-4 mb-md-0" + " svelte-1wmgenm");
@@ -154,7 +154,7 @@ function create_fragment(ctx) {
 				attr(div0, "class", div0_class_value);
 			}
 
-			if (dirty & /*image*/ 8 && img.src !== (img_src_value = "/assets" + /*image*/ ctx[3].url)) {
+			if (dirty & /*image*/ 8 && img.src !== (img_src_value = "assets" + /*image*/ ctx[3].url)) {
 				attr(img, "src", img_src_value);
 			}
 

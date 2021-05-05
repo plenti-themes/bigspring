@@ -390,29 +390,29 @@ function create_fragment(ctx) {
 		},
 		h() {
 			attr(div0, "class", "h3 mb-4");
-			attr(a0, "href", "/");
+			attr(a0, "href", ".");
 			attr(a0, "class", "svelte-igpv26");
-			attr(a1, "href", "/pricing");
+			attr(a1, "href", "pricing");
 			attr(a1, "class", "svelte-igpv26");
-			attr(a2, "href", "/");
+			attr(a2, "href", ".");
 			attr(a2, "class", "svelte-igpv26");
 			attr(ul0, "class", "list-unstyled footer-list svelte-igpv26");
 			attr(div1, "class", "col-md-3 col-sm-6 mb-5");
 			attr(div2, "class", "h3 mb-4");
-			attr(a3, "href", "/");
+			attr(a3, "href", ".");
 			attr(a3, "class", "svelte-igpv26");
-			attr(a4, "href", "/");
+			attr(a4, "href", ".");
 			attr(a4, "class", "svelte-igpv26");
-			attr(a5, "href", "/pricing");
+			attr(a5, "href", "pricing");
 			attr(a5, "class", "svelte-igpv26");
 			attr(ul1, "class", "list-unstyled footer-list svelte-igpv26");
 			attr(div3, "class", "col-md-3 col-sm-6 mb-5");
 			attr(div4, "class", "h3 mb-4");
-			attr(a6, "href", "/faq");
+			attr(a6, "href", "faq");
 			attr(a6, "class", "svelte-igpv26");
-			attr(a7, "href", "/privacy-policy");
+			attr(a7, "href", "privacy-policy");
 			attr(a7, "class", "svelte-igpv26");
-			attr(a8, "href", "/terms-conditions");
+			attr(a8, "href", "terms-conditions");
 			attr(a8, "class", "svelte-igpv26");
 			attr(ul2, "class", "list-unstyled footer-list svelte-igpv26");
 			attr(div5, "class", "col-md-3 col-sm-6 mb-5");
@@ -430,7 +430,7 @@ function create_fragment(ctx) {
 			attr(a11, "href", "https://twitter.com/plentico");
 			attr(li10, "class", "list-inline-item");
 			attr(i2, "class", "ti-skype svelte-igpv26");
-			attr(a12, "href", "/");
+			attr(a12, "href", ".");
 			attr(li11, "class", "list-inline-item");
 			attr(i3, "class", "ti-linkedin svelte-igpv26");
 			attr(a13, "href", "https://www.linkedin.com/company/jantcu");

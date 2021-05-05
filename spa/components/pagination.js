@@ -90,12 +90,12 @@ function create_else_block_2(ctx) {
 		},
 		h() {
 			attr(span0, "aria-hidden", "true");
-			attr(a0, "href", "/blog");
+			attr(a0, "href", "blog");
 			attr(a0, "class", "page-link svelte-1dhwyyn");
 			attr(a0, "aria-label", "First");
 			attr(li0, "class", "page-item disabled");
 			attr(span1, "aria-hidden", "true");
-			attr(a1, "href", a1_href_value = "/blog/" + (/*currentPage*/ ctx[0] - 1));
+			attr(a1, "href", a1_href_value = "blog/" + (/*currentPage*/ ctx[0] - 1));
 			attr(a1, "class", "page-link svelte-1dhwyyn");
 			attr(a1, "aria-label", "Previous");
 			attr(li1, "class", "page-item disabled");
@@ -112,7 +112,7 @@ function create_else_block_2(ctx) {
 			append(span1, t2);
 		},
 		p(ctx, dirty) {
-			if (dirty & /*currentPage*/ 1 && a1_href_value !== (a1_href_value = "/blog/" + (/*currentPage*/ ctx[0] - 1))) {
+			if (dirty & /*currentPage*/ 1 && a1_href_value !== (a1_href_value = "blog/" + (/*currentPage*/ ctx[0] - 1))) {
 				attr(a1, "href", a1_href_value);
 			}
 		},
@@ -188,12 +188,12 @@ function create_if_block_2(ctx) {
 		},
 		h() {
 			attr(span0, "aria-hidden", "true");
-			attr(a0, "href", "/blog");
+			attr(a0, "href", "blog");
 			attr(a0, "class", "page-link svelte-1dhwyyn");
 			attr(a0, "aria-label", "First");
 			attr(li0, "class", "page-item");
 			attr(span1, "aria-hidden", "true");
-			attr(a1, "href", a1_href_value = "/blog/" + (/*currentPage*/ ctx[0] - 1));
+			attr(a1, "href", a1_href_value = "blog/" + (/*currentPage*/ ctx[0] - 1));
 			attr(a1, "class", "page-link svelte-1dhwyyn");
 			attr(a1, "aria-label", "Previous");
 			attr(li1, "class", "page-item");
@@ -210,7 +210,7 @@ function create_if_block_2(ctx) {
 			append(span1, t2);
 		},
 		p(ctx, dirty) {
-			if (dirty & /*currentPage*/ 1 && a1_href_value !== (a1_href_value = "/blog/" + (/*currentPage*/ ctx[0] - 1))) {
+			if (dirty & /*currentPage*/ 1 && a1_href_value !== (a1_href_value = "blog/" + (/*currentPage*/ ctx[0] - 1))) {
 				attr(a1, "href", a1_href_value);
 			}
 		},
@@ -412,12 +412,12 @@ function create_else_block(ctx) {
 		},
 		h() {
 			attr(span0, "aria-hidden", "true");
-			attr(a0, "href", a0_href_value = "/blog/" + (/*currentPage*/ ctx[0] + 1));
+			attr(a0, "href", a0_href_value = "blog/" + (/*currentPage*/ ctx[0] + 1));
 			attr(a0, "class", "page-link svelte-1dhwyyn");
 			attr(a0, "aria-label", "Next");
 			attr(li0, "class", "page-item disabled");
 			attr(span1, "aria-hidden", "true");
-			attr(a1, "href", a1_href_value = "/blog/" + /*totalPages*/ ctx[1]);
+			attr(a1, "href", a1_href_value = "blog/" + /*totalPages*/ ctx[1]);
 			attr(a1, "class", "page-link svelte-1dhwyyn");
 			attr(a1, "aria-label", "Last");
 			attr(li1, "class", "page-item disabled");
@@ -434,11 +434,11 @@ function create_else_block(ctx) {
 			append(span1, t2);
 		},
 		p(ctx, dirty) {
-			if (dirty & /*currentPage*/ 1 && a0_href_value !== (a0_href_value = "/blog/" + (/*currentPage*/ ctx[0] + 1))) {
+			if (dirty & /*currentPage*/ 1 && a0_href_value !== (a0_href_value = "blog/" + (/*currentPage*/ ctx[0] + 1))) {
 				attr(a0, "href", a0_href_value);
 			}
 
-			if (dirty & /*totalPages*/ 2 && a1_href_value !== (a1_href_value = "/blog/" + /*totalPages*/ ctx[1])) {
+			if (dirty & /*totalPages*/ 2 && a1_href_value !== (a1_href_value = "blog/" + /*totalPages*/ ctx[1])) {
 				attr(a1, "href", a1_href_value);
 			}
 		},
@@ -515,12 +515,12 @@ function create_if_block(ctx) {
 		},
 		h() {
 			attr(span0, "aria-hidden", "true");
-			attr(a0, "href", a0_href_value = "/blog/" + (/*currentPage*/ ctx[0] + 1));
+			attr(a0, "href", a0_href_value = "blog/" + (/*currentPage*/ ctx[0] + 1));
 			attr(a0, "class", "page-link svelte-1dhwyyn");
 			attr(a0, "aria-label", "Next");
 			attr(li0, "class", "page-item");
 			attr(span1, "aria-hidden", "true");
-			attr(a1, "href", a1_href_value = "/blog/" + /*totalPages*/ ctx[1]);
+			attr(a1, "href", a1_href_value = "blog/" + /*totalPages*/ ctx[1]);
 			attr(a1, "class", "page-link svelte-1dhwyyn");
 			attr(a1, "aria-label", "Last");
 			attr(li1, "class", "page-item");
@@ -537,11 +537,11 @@ function create_if_block(ctx) {
 			append(span1, t2);
 		},
 		p(ctx, dirty) {
-			if (dirty & /*currentPage*/ 1 && a0_href_value !== (a0_href_value = "/blog/" + (/*currentPage*/ ctx[0] + 1))) {
+			if (dirty & /*currentPage*/ 1 && a0_href_value !== (a0_href_value = "blog/" + (/*currentPage*/ ctx[0] + 1))) {
 				attr(a0, "href", a0_href_value);
 			}
 
-			if (dirty & /*totalPages*/ 2 && a1_href_value !== (a1_href_value = "/blog/" + /*totalPages*/ ctx[1])) {
+			if (dirty & /*totalPages*/ 2 && a1_href_value !== (a1_href_value = "blog/" + /*totalPages*/ ctx[1])) {
 				attr(a1, "href", a1_href_value);
 			}
 		},

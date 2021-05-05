@@ -119,7 +119,7 @@ function create_each_block_1(ctx) {
 			this.h();
 		},
 		h() {
-			if (img.src !== (img_src_value = "/assets/" + /*post*/ ctx[9].fields.image.src)) attr(img, "src", img_src_value);
+			if (img.src !== (img_src_value = "assets/" + /*post*/ ctx[9].fields.image.src)) attr(img, "src", img_src_value);
 			attr(img, "alt", img_alt_value = /*post*/ ctx[9].fields.image.alt);
 			attr(img, "class", "img-fluid rounded-lg w-100");
 			attr(div0, "class", "col-md-6 mb-4 mb-md-0");
@@ -150,7 +150,7 @@ function create_each_block_1(ctx) {
 			append(a1, t5);
 		},
 		p(ctx, dirty) {
-			if (dirty & /*allContent*/ 2 && img.src !== (img_src_value = "/assets/" + /*post*/ ctx[9].fields.image.src)) {
+			if (dirty & /*allContent*/ 2 && img.src !== (img_src_value = "assets/" + /*post*/ ctx[9].fields.image.src)) {
 				attr(img, "src", img_src_value);
 			}
 

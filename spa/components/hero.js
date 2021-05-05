@@ -103,7 +103,7 @@ function create_fragment(ctx) {
 			attr(p, "class", "mb-4");
 			attr(a, "href", a_href_value = /*link*/ ctx[2].url);
 			attr(a, "class", "btn btn-primary");
-			if (img.src !== (img_src_value = "/assets" + /*image*/ ctx[3])) attr(img, "src", img_src_value);
+			if (img.src !== (img_src_value = "assets" + /*image*/ ctx[3])) attr(img, "src", img_src_value);
 			attr(img, "alt", "Two people looking at websites");
 			attr(img, "class", "img-fluid mt-5");
 			attr(img, "width", "750px");
@@ -138,7 +138,7 @@ function create_fragment(ctx) {
 				attr(a, "href", a_href_value);
 			}
 
-			if (dirty & /*image*/ 8 && img.src !== (img_src_value = "/assets" + /*image*/ ctx[3])) {
+			if (dirty & /*image*/ 8 && img.src !== (img_src_value = "assets" + /*image*/ ctx[3])) {
 				attr(img, "src", img_src_value);
 			}
 		},
