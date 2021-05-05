@@ -30,7 +30,7 @@
 
       <div class="col-md-6 order-{imgPos} order-md-{imgPosMD} mb-4 mb-md-0">
         <div>
-          <img src="/assets{image.url}" alt="{image.alt}" class="img-fluid">
+          <img src="assets{image.url}" alt="{image.alt}" class="img-fluid">
         </div>
       </div>
 

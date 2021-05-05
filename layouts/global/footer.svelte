@@ -5,9 +5,9 @@
         
         <div class="h3 mb-4">Company</div>
         <ul class="list-unstyled footer-list">
-          <li><a href="/">About Us</a></li>
-          <li><a href="/pricing">Pricing</a></li>
-          <li><a href="/">Quick Start</a></li>
+          <li><a href=".">About Us</a></li>
+          <li><a href="pricing">Pricing</a></li>
+          <li><a href=".">Quick Start</a></li>
         </ul>
         
       </div>
@@ -15,9 +15,9 @@
         
         <div class="h3 mb-4">Product</div>
         <ul class="list-unstyled footer-list">
-          <li><a href="/">Features</a></li>
-          <li><a href="/">Platform</a></li>
-          <li><a href="/pricing">Pricing</a></li>
+          <li><a href=".">Features</a></li>
+          <li><a href=".">Platform</a></li>
+          <li><a href="pricing">Pricing</a></li>
         </ul>
         
       </div>
@@ -25,9 +25,9 @@
         
         <div class="h3 mb-4">Support</div>
         <ul class="list-unstyled footer-list">
-          <li><a href="/faq">FAQ</a></li>
-          <li><a href="/privacy-policy">Privacy Policy</a></li>
-          <li><a href="/terms-conditions">Terms &amp; Conditions</a></li>
+          <li><a href="faq">FAQ</a></li>
+          <li><a href="privacy-policy">Privacy Policy</a></li>
+          <li><a href="terms-conditions">Terms &amp; Conditions</a></li>
         </ul>
         
       </div>
@@ -38,7 +38,7 @@
         <ul class="list-inline social-icons">
           <li class="list-inline-item"><a href="https://www.facebook.com/jantcu/"><i class="ti-facebook"></i></a></li>
           <li class="list-inline-item"><a href="https://twitter.com/plentico"><i class="ti-twitter-alt"></i></a></li>
-          <li class="list-inline-item"><a href="/"><i class="ti-skype"></i></a></li>
+          <li class="list-inline-item"><a href="."><i class="ti-skype"></i></a></li>
           <li class="list-inline-item"><a href="https://www.linkedin.com/company/jantcu"><i class="ti-linkedin"></i></a></li>
         </ul>        
       </div>

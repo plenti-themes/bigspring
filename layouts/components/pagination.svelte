@@ -5,17 +5,17 @@
 <ul class="pagination">
     {#if (currentPage - 1) > 0}
     <li class="page-item">
-        <a href="/blog" class="page-link" aria-label="First"><span aria-hidden="true">««</span></a>
+        <a href="blog" class="page-link" aria-label="First"><span aria-hidden="true">««</span></a>
     </li>
     <li class="page-item">
-        <a href="/blog/{currentPage - 1}" class="page-link" aria-label="Previous"><span aria-hidden="true">«</span></a>
+        <a href="blog/{currentPage - 1}" class="page-link" aria-label="Previous"><span aria-hidden="true">«</span></a>
     </li>
     {:else}
     <li class="page-item disabled">
-        <a href="/blog" class="page-link" aria-label="First"><span aria-hidden="true">««</span></a>
+        <a href="blog" class="page-link" aria-label="First"><span aria-hidden="true">««</span></a>
     </li>
     <li class="page-item disabled">
-        <a href="/blog/{currentPage - 1}" class="page-link" aria-label="Previous"><span aria-hidden="true">«</span></a>
+        <a href="blog/{currentPage - 1}" class="page-link" aria-label="Previous"><span aria-hidden="true">«</span></a>
     </li>
     {/if}
     {#each Array(totalPages) as _, i}
@@ -27,17 +27,17 @@
     {/each}
     {#if (currentPage + 1) <= totalPages}
     <li class="page-item">
-        <a href="/blog/{currentPage + 1}" class="page-link" aria-label="Next"><span aria-hidden="true">»</span></a>
+        <a href="blog/{currentPage + 1}" class="page-link" aria-label="Next"><span aria-hidden="true">»</span></a>
     </li>
     <li class="page-item">
-        <a href="/blog/{totalPages}" class="page-link" aria-label="Last"><span aria-hidden="true">»»</span></a>
+        <a href="blog/{totalPages}" class="page-link" aria-label="Last"><span aria-hidden="true">»»</span></a>
     </li>
     {:else}
     <li class="page-item disabled">
-        <a href="/blog/{currentPage + 1}" class="page-link" aria-label="Next"><span aria-hidden="true">»</span></a>
+        <a href="blog/{currentPage + 1}" class="page-link" aria-label="Next"><span aria-hidden="true">»</span></a>
     </li>
     <li class="page-item disabled">
-        <a href="/blog/{totalPages}" class="page-link" aria-label="Last"><span aria-hidden="true">»»</span></a>
+        <a href="blog/{totalPages}" class="page-link" aria-label="Last"><span aria-hidden="true">»»</span></a>
     </li>
     {/if}
 </ul>

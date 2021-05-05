@@ -24,7 +24,7 @@
       <div class="col-12 mb-5 pb-5">
         <div class="row align-items-center">
           <div class="col-md-6 mb-4 mb-md-0">
-            <img src="/assets/{post.fields.image.src}" alt="{post.fields.image.alt}" class="img-fluid rounded-lg w-100">
+            <img src="assets/{post.fields.image.src}" alt="{post.fields.image.alt}" class="img-fluid rounded-lg w-100">
           </div>
           <div class="col-md-6">
             <h2><a href="{post.path}" class="post-title">{post.fields.title}</a></h2>
