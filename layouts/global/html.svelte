@@ -3,11 +3,11 @@
   import Nav from './nav.svelte';
   import Footer from './footer.svelte';
 
-  export let layout, content, allContent, allLayouts;
+  export let layout, content, allContent, allLayouts, env;
 </script>
 
 <html lang="en">
-<Head title={content.filename} />
+  <Head title={content.filename} {env} />
 <body>
   <header class="navigation">
     <div class="container">

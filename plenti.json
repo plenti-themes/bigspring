@@ -1,5 +1,6 @@
 {
 	"build": "public",
+  "baseurl": "/bigspring/",
 	"routes": {
 		"pages": "/:filename",
 		"posts": "/blog/:filename",
