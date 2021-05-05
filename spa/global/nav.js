@@ -155,10 +155,10 @@ function create_fragment(ctx) {
 		h() {
 			attr(img, "width", "200px");
 			attr(img, "class", "img-fluid");
-			if (img.src !== (img_src_value = "/assets/logo.png")) attr(img, "src", img_src_value);
+			if (img.src !== (img_src_value = "assets/logo.png")) attr(img, "src", img_src_value);
 			attr(img, "alt", "Bigspring Hugo");
 			attr(a0, "class", "navbar-brand");
-			attr(a0, "href", "/");
+			attr(a0, "href", ".");
 			attr(i, "class", "ti-menu h3");
 			attr(button, "class", "navbar-toggler border-0 collapsed");
 			attr(button, "type", "button");
@@ -166,19 +166,19 @@ function create_fragment(ctx) {
 			attr(button, "data-target", "#navigation");
 			attr(button, "aria-expanded", "false");
 			attr(a1, "class", "nav-link");
-			attr(a1, "href", "/blog");
+			attr(a1, "href", "blog");
 			attr(li0, "class", "nav-item");
 			attr(a2, "class", "nav-link");
-			attr(a2, "href", "/pricing");
+			attr(a2, "href", "pricing");
 			attr(li1, "class", "nav-item");
 			attr(a3, "class", "nav-link");
-			attr(a3, "href", "/contact");
+			attr(a3, "href", "contact");
 			attr(li2, "class", "nav-item");
 			attr(a4, "class", "nav-link");
-			attr(a4, "href", "/faq");
+			attr(a4, "href", "faq");
 			attr(li3, "class", "nav-item");
 			attr(ul, "class", "navbar-nav mx-auto");
-			attr(a5, "href", "/contact");
+			attr(a5, "href", "contact");
 			attr(a5, "class", "btn btn-sm btn-primary ml-3");
 			attr(div, "class", "navbar-collapse text-center collapse");
 			attr(div, "id", "navigation");

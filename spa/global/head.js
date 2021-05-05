@@ -104,18 +104,18 @@ function create_fragment(ctx) {
 			attr(meta1, "content", "width=device-width,initial-scale=1");
 			attr(base, "href", base_href_value = /*env*/ ctx[1].local ? "/" : /*env*/ ctx[1].baseurl);
 			attr(script, "type", "module");
-			if (script.src !== (script_src_value = "/spa/ejected/main.js")) attr(script, "src", script_src_value);
+			if (script.src !== (script_src_value = "spa/ejected/main.js")) attr(script, "src", script_src_value);
 			attr(link0, "rel", "stylesheet");
-			attr(link0, "href", "/assets/themify-icons/themify-icons.css");
+			attr(link0, "href", "assets/themify-icons/themify-icons.css");
 			attr(link1, "rel", "stylesheet");
 			attr(link1, "href", "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
 			attr(link1, "integrity", "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T");
 			attr(link1, "crossorigin", "anonymous");
 			attr(link2, "rel", "icon");
 			attr(link2, "type", "image/svg+xml");
-			attr(link2, "href", "/assets/favicon.svg");
+			attr(link2, "href", "assets/favicon.svg");
 			attr(link3, "rel", "stylesheet");
-			attr(link3, "href", "/spa/bundle.css");
+			attr(link3, "href", "spa/bundle.css");
 		},
 		m(target, anchor) {
 			insert(target, head, anchor);

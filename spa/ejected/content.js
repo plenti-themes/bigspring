@@ -1,6 +1,6 @@
 const allContent = [{
 "pager": 1,
-"path": "/blog",
+"path": "blog",
 "type": "blog",
 "filename": "blog.json",
 "fields": {
@@ -160,7 +160,7 @@ const allContent = [{
 }
 },{
 "pager": 1,
-"path": "/contact",
+"path": "contact",
 "type": "pages",
 "filename": "contact.json",
 "fields": {
@@ -185,7 +185,7 @@ const allContent = [{
 }
 },{
 "pager": 1,
-"path": "/faq",
+"path": "faq",
 "type": "pages",
 "filename": "faq.json",
 "fields": {
@@ -240,7 +240,7 @@ const allContent = [{
 }
 },{
 "pager": 1,
-"path": "/pricing",
+"path": "pricing",
 "type": "pages",
 "filename": "pricing.json",
 "fields": {
@@ -331,7 +331,7 @@ const allContent = [{
 }
 },{
 "pager": 1,
-"path": "/privacy-policy",
+"path": "privacy-policy",
 "type": "pages",
 "filename": "privacy-policy.json",
 "fields": {
@@ -379,7 +379,7 @@ const allContent = [{
 }
 },{
 "pager": 1,
-"path": "/terms-conditions",
+"path": "terms-conditions",
 "type": "pages",
 "filename": "terms-conditions.json",
 "fields": {
@@ -427,7 +427,7 @@ const allContent = [{
 }
 },{
 "pager": 1,
-"path": "/blog/post-1",
+"path": "blog/post-1",
 "type": "posts",
 "filename": "post-1.json",
 "fields": {
@@ -442,7 +442,7 @@ const allContent = [{
 }
 },{
 "pager": 1,
-"path": "/blog/post-2",
+"path": "blog/post-2",
 "type": "posts",
 "filename": "post-2.json",
 "fields": {
@@ -458,7 +458,7 @@ const allContent = [{
 }
 },{
 "pager": 1,
-"path": "/blog/post-3",
+"path": "blog/post-3",
 "type": "posts",
 "filename": "post-3.json",
 "fields": {
@@ -473,7 +473,7 @@ const allContent = [{
 }
 },{
 "pager": 1,
-"path": "/blog/post-4",
+"path": "blog/post-4",
 "type": "posts",
 "filename": "post-4.json",
 "fields": {
@@ -488,7 +488,7 @@ const allContent = [{
 }
 },{
 "pager": 1,
-"path": "/blog/post-5",
+"path": "blog/post-5",
 "type": "posts",
 "filename": "post-5.json",
 "fields": {
@@ -503,7 +503,7 @@ const allContent = [{
 }
 },{
 "pager": 1,
-"path": "/blog/post-6",
+"path": "blog/post-6",
 "type": "posts",
 "filename": "post-6.json",
 "fields": {
@@ -518,7 +518,7 @@ const allContent = [{
 }
 },{
 "pager": 1,
-"path": "/blog/post-7",
+"path": "blog/post-7",
 "type": "posts",
 "filename": "post-7.json",
 "fields": {
@@ -533,19 +533,19 @@ const allContent = [{
 }
 },{
 "pager": 1,
-"path": "/blog/1",
+"path": "blog/1",
 "type": "blog",
 "filename": "blog.json",
 "fields": { "title": "Latest News" }
 },{
 "pager": 2,
-"path": "/blog/2",
+"path": "blog/2",
 "type": "blog",
 "filename": "blog.json",
 "fields": { "title": "Latest News" }
 },{
 "pager": 3,
-"path": "/blog/3",
+"path": "blog/3",
 "type": "blog",
 "filename": "blog.json",
 "fields": { "title": "Latest News" }
