@@ -39,7 +39,7 @@
         {#if i >= postRangeLow && i < postRangeHigh}
             <div class="col-lg-4 col-sm-6 mb-5">
                 <div class="card border-0">
-                <img src="/assets/{post.fields.image.src}" alt="{post.fields.image.alt}" class="card-img rounded-lg mb-4">
+                <img src="assets/{post.fields.image.src}" alt="{post.fields.image.alt}" class="card-img rounded-lg mb-4">
                 <div class="card-body p-0">
                     <h3><a href="{post.path}" class="post-title">{post.fields.title}</a></h3>
                     <p class="card-text">{post.fields.body.substring(0, 175).replace(/(<([^>]+)>)/gi, "")}</p>
