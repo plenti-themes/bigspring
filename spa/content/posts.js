@@ -72,7 +72,7 @@ function create_fragment(ctx) {
 			this.h();
 		},
 		h() {
-			if (img.src !== (img_src_value = "/assets/" + /*image*/ ctx[2].src)) attr(img, "src", img_src_value);
+			if (img.src !== (img_src_value = "assets/" + /*image*/ ctx[2].src)) attr(img, "src", img_src_value);
 			attr(img, "alt", img_alt_value = /*image*/ ctx[2].alt);
 			attr(img, "class", "img-fluid w-100 rounded mb-4");
 			attr(h2, "class", "mb-4");
@@ -95,7 +95,7 @@ function create_fragment(ctx) {
 			p.innerHTML = /*body*/ ctx[1];
 		},
 		p(ctx, [dirty]) {
-			if (dirty & /*image*/ 4 && img.src !== (img_src_value = "/assets/" + /*image*/ ctx[2].src)) {
+			if (dirty & /*image*/ 4 && img.src !== (img_src_value = "assets/" + /*image*/ ctx[2].src)) {
 				attr(img, "src", img_src_value);
 			}
 

@@ -249,7 +249,7 @@ function create_if_block(ctx) {
 			this.h();
 		},
 		h() {
-			if (img.src !== (img_src_value = "/assets/" + /*post*/ ctx[9].fields.image.src)) attr(img, "src", img_src_value);
+			if (img.src !== (img_src_value = "assets/" + /*post*/ ctx[9].fields.image.src)) attr(img, "src", img_src_value);
 			attr(img, "alt", img_alt_value = /*post*/ ctx[9].fields.image.alt);
 			attr(img, "class", "card-img rounded-lg mb-4");
 			attr(a0, "href", a0_href_value = /*post*/ ctx[9].path);
