@@ -24,9 +24,9 @@ import {
 	text,
 	transition_in,
 	transition_out
-} from '/spa/web_modules/svelte/internal/index.mjs';
+} from '../web_modules/svelte/internal/index.mjs';
 
-import Pagination from '/spa/components/pagination.js';
+import Pagination from '../components/pagination.js';
 
 function get_each_context(ctx, list, i) {
 	const child_ctx = ctx.slice();

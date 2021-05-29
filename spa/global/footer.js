@@ -15,7 +15,7 @@ import {
 	safe_not_equal,
 	space,
 	text
-} from '/spa/web_modules/svelte/internal/index.mjs';
+} from '../web_modules/svelte/internal/index.mjs';
 
 function create_fragment(ctx) {
 	let footer;
@@ -418,10 +418,10 @@ function create_fragment(ctx) {
 			attr(div5, "class", "col-md-3 col-sm-6 mb-5");
 			attr(img, "width", "200px");
 			attr(img, "class", "img-fluid");
-			if (img.src !== (img_src_value = "/assets/logo.png")) attr(img, "src", img_src_value);
+			if (img.src !== (img_src_value = "assets/logo.png")) attr(img, "src", img_src_value);
 			attr(img, "alt", "Bigspring Hugo");
 			attr(a9, "class", "d-block mb-3");
-			attr(a9, "href", "/");
+			attr(a9, "href", ".");
 			attr(p, "class", "mb-4");
 			attr(i0, "class", "ti-facebook svelte-igpv26");
 			attr(a10, "href", "https://www.facebook.com/jantcu/");

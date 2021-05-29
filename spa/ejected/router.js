@@ -9,10 +9,10 @@ import {
 	safe_not_equal,
 	transition_in,
 	transition_out
-} from '/spa/web_modules/svelte/internal/index.mjs';
+} from '../web_modules/svelte/internal/index.mjs';
 
-import Navaid from '/spa/web_modules/navaid/dist/navaid.mjs';
-import Html from '/spa/global/html.js';
+import Navaid from '../web_modules/navaid/dist/navaid.mjs';
+import Html from '../global/html.js';
 import { getContent } from "./main.js";
 
 function create_fragment(ctx) {
