@@ -20,9 +20,9 @@
     {/if}
     {#each Array(totalPages) as _, i}
         {#if currentPage == i+1}
-            <li class="page-item active"><a class="page-link" href="/blog/{i+1}">{i+1}</a></li>
+            <li class="page-item active"><a class="page-link" href="blog/{i+1}">{i+1}</a></li>
         {:else}
-            <li class="page-item"><a class="page-link" href="/blog/{i+1}">{i+1}</a></li>
+            <li class="page-item"><a class="page-link" href="blog/{i+1}">{i+1}</a></li>
         {/if}
     {/each}
     {#if (currentPage + 1) <= totalPages}
