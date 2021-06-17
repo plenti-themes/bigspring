@@ -249,7 +249,7 @@ function create_else_block_1(ctx) {
 		},
 		h() {
 			attr(a, "class", "page-link svelte-1dhwyyn");
-			attr(a, "href", a_href_value = "/blog/" + (/*i*/ ctx[4] + 1));
+			attr(a, "href", a_href_value = "blog/" + (/*i*/ ctx[4] + 1));
 			attr(li, "class", "page-item");
 		},
 		m(target, anchor) {
@@ -290,7 +290,7 @@ function create_if_block_1(ctx) {
 		},
 		h() {
 			attr(a, "class", "page-link svelte-1dhwyyn");
-			attr(a, "href", a_href_value = "/blog/" + (/*i*/ ctx[4] + 1));
+			attr(a, "href", a_href_value = "blog/" + (/*i*/ ctx[4] + 1));
 			attr(li, "class", "page-item active");
 		},
 		m(target, anchor) {
