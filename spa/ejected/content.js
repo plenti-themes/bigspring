@@ -20,7 +20,7 @@ const allContent = [{
 				"body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus",
 				"link": {
 					"title": "Contact with Us",
-					"url": "/contact"
+					"url": "contact"
 				},
 				"image": "/banner-art.svg"
 			}
@@ -71,7 +71,7 @@ const allContent = [{
 				"background": "",
 				"link": {
 					"title": "Check it out",
-					"url": "/",
+					"url": ".",
 					"alt": "all"
 				},
 				"image": {
@@ -89,7 +89,7 @@ const allContent = [{
 				"background": "blue",
 				"link": {
 					"title": "Check it out",
-					"url": "/"
+					"url": "."
 				},
 				"image": {
 					"position": "left",
@@ -106,7 +106,7 @@ const allContent = [{
 				"background": "",
 				"link": {
 					"title": "Check it out",
-					"url": "/"
+					"url": "."
 				},
 				"image": {
 					"position": "right",
@@ -123,7 +123,7 @@ const allContent = [{
 				"background": "blue",
 				"link": {
 					"title": "Check it out",
-					"url": "/"
+					"url": "."
 				},
 				"image": {
 					"position": "left",
@@ -151,13 +151,14 @@ const allContent = [{
 					"url": "/cta.svg"
 				},
 				"link": {
-					"url": "/contact",
+					"url": "contact",
 					"title": "Contact Us"
 				}
 			}
 		}
 	]
 }
+
 },{
 "pager": 1,
 "path": "contact",
