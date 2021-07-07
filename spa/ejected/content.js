@@ -4,14 +4,23 @@ const allContent = [{
 "type": "blog",
 "filename": "blog.json",
 "fields": {
+    "meta": {
+        "desc": "List of blog posts",
+        "keywords": "Plenti, Themes, blog, pagination"
+    },
     "title": "Latest News"
 }
+
 },{
 "pager": 1,
 "path": "/",
 "type": "index",
 "filename": "index.json",
 "fields": {
+  "meta": {
+    "desc": "Bigspring is a theme for the Plentico static site generator",
+    "keywords": "Plenti, Svelte, Go, SSG, JAMstack, Themes"
+  },
 	"components": [
 		{
 			"name": "hero",
@@ -127,7 +136,8 @@ const allContent = [{
 				},
 				"image": {
 					"position": "left",
-					"url": "/service-3.png"
+					"url": "/service-3.png",
+					"alt": "Generic bar chart"
 				}
 			}
 		},
@@ -165,6 +175,10 @@ const allContent = [{
 "type": "pages",
 "filename": "contact.json",
 "fields": {
+  "meta": {
+    "desc": "Contact Us form",
+    "keywords": "Plenti, contact, form"
+  },
 	"components": [
         {
             "name": "page_title",
@@ -184,12 +198,17 @@ const allContent = [{
 		}
 	]
 }
+
 },{
 "pager": 1,
 "path": "faq",
 "type": "pages",
 "filename": "faq.json",
 "fields": {
+  "meta": {
+    "desc": "Frequently Asked Questions grid",
+    "keywords": "Plenti, FAQ, grid"
+  },
 	"components": [
         {
             "name": "page_title",
@@ -239,12 +258,17 @@ const allContent = [{
 		}
 	]
 }
+
 },{
 "pager": 1,
 "path": "pricing",
 "type": "pages",
 "filename": "pricing.json",
 "fields": {
+  "meta": {
+    "desc": "Pricing levels",
+    "keywords": "Plenti, pricing, tiers, levels"
+  },
 	"components": [
         {
             "name": "page_title",
@@ -330,12 +354,17 @@ const allContent = [{
 		}
 	]
 }
+
 },{
 "pager": 1,
 "path": "privacy-policy",
 "type": "pages",
 "filename": "privacy-policy.json",
 "fields": {
+  "meta": {
+    "desc": "Privacy statement",
+    "keywords": "Plenti, legal"
+  },
 	"components": [
         {
             "name": "page_title",
@@ -378,12 +407,17 @@ const allContent = [{
 		}
 	]
 }
+
 },{
 "pager": 1,
 "path": "terms-conditions",
 "type": "pages",
 "filename": "terms-conditions.json",
 "fields": {
+  "meta": {
+    "desc": "Terms & Conditions",
+    "keywords": "Plenti, T&C, legal"
+  },
 	"components": [
         {
             "name": "page_title",
@@ -426,6 +460,7 @@ const allContent = [{
 		}
 	]
 }
+
 },{
 "pager": 1,
 "path": "blog/post-1",
@@ -537,19 +572,19 @@ const allContent = [{
 "path": "blog/1",
 "type": "blog",
 "filename": "blog.json",
-"fields": { "title": "Latest News" }
+"fields": { "meta": { "desc": "List of blog posts", "keywords": "Plenti, Themes, blog, pagination" }, "title": "Latest News" } 
 },{
 "pager": 2,
 "path": "blog/2",
 "type": "blog",
 "filename": "blog.json",
-"fields": { "title": "Latest News" }
+"fields": { "meta": { "desc": "List of blog posts", "keywords": "Plenti, Themes, blog, pagination" }, "title": "Latest News" } 
 },{
 "pager": 3,
 "path": "blog/3",
 "type": "blog",
 "filename": "blog.json",
-"fields": { "title": "Latest News" }
+"fields": { "meta": { "desc": "List of blog posts", "keywords": "Plenti, Themes, blog, pagination" }, "title": "Latest News" } 
 },];
 
 export default allContent;

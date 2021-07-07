@@ -27,12 +27,12 @@ function get_each_context(ctx, list, i) {
 
 // (13:6) {#each items as item}
 function create_each_block(ctx) {
+	let div2;
 	let div1;
-	let div0;
 	let i;
 	let i_class_value;
 	let t0;
-	let h4;
+	let div0;
 	let t1_value = /*item*/ ctx[2].title + "";
 	let t1;
 	let t2;
@@ -43,11 +43,11 @@ function create_each_block(ctx) {
 
 	return {
 		c() {
+			div2 = element("div");
 			div1 = element("div");
-			div0 = element("div");
 			i = element("i");
 			t0 = space();
-			h4 = element("h4");
+			div0 = element("div");
 			t1 = text(t1_value);
 			t2 = space();
 			p = element("p");
@@ -56,44 +56,44 @@ function create_each_block(ctx) {
 			this.h();
 		},
 		l(nodes) {
-			div1 = claim_element(nodes, "DIV", { class: true });
+			div2 = claim_element(nodes, "DIV", { class: true });
+			var div2_nodes = children(div2);
+			div1 = claim_element(div2_nodes, "DIV", { class: true });
 			var div1_nodes = children(div1);
+			i = claim_element(div1_nodes, "I", { class: true });
+			children(i).forEach(detach);
+			t0 = claim_space(div1_nodes);
 			div0 = claim_element(div1_nodes, "DIV", { class: true });
 			var div0_nodes = children(div0);
-			i = claim_element(div0_nodes, "I", { class: true });
-			children(i).forEach(detach);
-			t0 = claim_space(div0_nodes);
-			h4 = claim_element(div0_nodes, "H4", { class: true });
-			var h4_nodes = children(h4);
-			t1 = claim_text(h4_nodes, t1_value);
-			h4_nodes.forEach(detach);
-			t2 = claim_space(div0_nodes);
-			p = claim_element(div0_nodes, "P", {});
+			t1 = claim_text(div0_nodes, t1_value);
+			div0_nodes.forEach(detach);
+			t2 = claim_space(div1_nodes);
+			p = claim_element(div1_nodes, "P", {});
 			var p_nodes = children(p);
 			t3 = claim_text(p_nodes, t3_value);
 			p_nodes.forEach(detach);
-			div0_nodes.forEach(detach);
-			t4 = claim_space(div1_nodes);
 			div1_nodes.forEach(detach);
+			t4 = claim_space(div2_nodes);
+			div2_nodes.forEach(detach);
 			this.h();
 		},
 		h() {
 			attr(i, "class", i_class_value = "" + (/*item*/ ctx[2].icon + " mb-3" + " svelte-m7edsr"));
-			attr(h4, "class", "mb-2");
-			attr(div0, "class", "feature-card text-center svelte-m7edsr");
-			attr(div1, "class", "col-md-4 col-sm-6 mb-4");
+			attr(div0, "class", "mb-2 h4");
+			attr(div1, "class", "feature-card text-center svelte-m7edsr");
+			attr(div2, "class", "col-md-4 col-sm-6 mb-4");
 		},
 		m(target, anchor) {
-			insert(target, div1, anchor);
+			insert(target, div2, anchor);
+			append(div2, div1);
+			append(div1, i);
+			append(div1, t0);
 			append(div1, div0);
-			append(div0, i);
-			append(div0, t0);
-			append(div0, h4);
-			append(h4, t1);
-			append(div0, t2);
-			append(div0, p);
+			append(div0, t1);
+			append(div1, t2);
+			append(div1, p);
 			append(p, t3);
-			append(div1, t4);
+			append(div2, t4);
 		},
 		p(ctx, dirty) {
 			if (dirty & /*items*/ 2 && i_class_value !== (i_class_value = "" + (/*item*/ ctx[2].icon + " mb-3" + " svelte-m7edsr"))) {
@@ -104,7 +104,7 @@ function create_each_block(ctx) {
 			if (dirty & /*items*/ 2 && t3_value !== (t3_value = /*item*/ ctx[2].body + "")) set_data(t3, t3_value);
 		},
 		d(detaching) {
-			if (detaching) detach(div1);
+			if (detaching) detach(div2);
 		}
 	};
 }

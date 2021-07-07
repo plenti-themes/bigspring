@@ -331,7 +331,7 @@ function create_fragment(ctx) {
 			var ul3_nodes = children(ul3);
 			li9 = claim_element(ul3_nodes, "LI", { class: true });
 			var li9_nodes = children(li9);
-			a10 = claim_element(li9_nodes, "A", { href: true });
+			a10 = claim_element(li9_nodes, "A", { href: true, "aria-label": true });
 			var a10_nodes = children(a10);
 			i0 = claim_element(a10_nodes, "I", { class: true });
 			children(i0).forEach(detach);
@@ -340,7 +340,7 @@ function create_fragment(ctx) {
 			t27 = claim_space(ul3_nodes);
 			li10 = claim_element(ul3_nodes, "LI", { class: true });
 			var li10_nodes = children(li10);
-			a11 = claim_element(li10_nodes, "A", { href: true });
+			a11 = claim_element(li10_nodes, "A", { href: true, "aria-label": true });
 			var a11_nodes = children(a11);
 			i1 = claim_element(a11_nodes, "I", { class: true });
 			children(i1).forEach(detach);
@@ -349,7 +349,7 @@ function create_fragment(ctx) {
 			t28 = claim_space(ul3_nodes);
 			li11 = claim_element(ul3_nodes, "LI", { class: true });
 			var li11_nodes = children(li11);
-			a12 = claim_element(li11_nodes, "A", { href: true });
+			a12 = claim_element(li11_nodes, "A", { href: true, "aria-label": true });
 			var a12_nodes = children(a12);
 			i2 = claim_element(a12_nodes, "I", { class: true });
 			children(i2).forEach(detach);
@@ -358,7 +358,7 @@ function create_fragment(ctx) {
 			t29 = claim_space(ul3_nodes);
 			li12 = claim_element(ul3_nodes, "LI", { class: true });
 			var li12_nodes = children(li12);
-			a13 = claim_element(li12_nodes, "A", { href: true });
+			a13 = claim_element(li12_nodes, "A", { href: true, "aria-label": true });
 			var a13_nodes = children(a13);
 			i3 = claim_element(a13_nodes, "I", { class: true });
 			children(i3).forEach(detach);
@@ -425,15 +425,19 @@ function create_fragment(ctx) {
 			attr(p, "class", "mb-4");
 			attr(i0, "class", "ti-facebook svelte-igpv26");
 			attr(a10, "href", "https://www.facebook.com/jantcu/");
+			attr(a10, "aria-label", "Facebook");
 			attr(li9, "class", "list-inline-item");
 			attr(i1, "class", "ti-twitter-alt svelte-igpv26");
 			attr(a11, "href", "https://twitter.com/plentico");
+			attr(a11, "aria-label", "Twitter");
 			attr(li10, "class", "list-inline-item");
 			attr(i2, "class", "ti-skype svelte-igpv26");
 			attr(a12, "href", ".");
+			attr(a12, "aria-label", "Skype");
 			attr(li11, "class", "list-inline-item");
 			attr(i3, "class", "ti-linkedin svelte-igpv26");
 			attr(a13, "href", "https://www.linkedin.com/company/jantcu");
+			attr(a13, "aria-label", "LinkedIn");
 			attr(li12, "class", "list-inline-item");
 			attr(ul3, "class", "list-inline social-icons svelte-igpv26");
 			attr(div6, "class", "col-md-3 col-sm-6 mb-5");

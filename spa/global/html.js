@@ -43,13 +43,19 @@ function create_fragment(ctx) {
 	let footer;
 	let current;
 
-	head = new Head({
-			props: {
-				title: /*content*/ ctx[1].filename,
-				env: /*env*/ ctx[4]
-			}
-		});
+	const head_spread_levels = [
+		{ title: /*content*/ ctx[1].filename },
+		{ env: /*env*/ ctx[4] },
+		/*content*/ ctx[1].fields
+	];
 
+	let head_props = {};
+
+	for (let i = 0; i < head_spread_levels.length; i += 1) {
+		head_props = assign(head_props, head_spread_levels[i]);
+	}
+
+	head = new Head({ props: head_props });
 	nav = new Nav({});
 
 	const switch_instance_spread_levels = [
@@ -138,9 +144,14 @@ function create_fragment(ctx) {
 			current = true;
 		},
 		p(ctx, [dirty]) {
-			const head_changes = {};
-			if (dirty & /*content*/ 2) head_changes.title = /*content*/ ctx[1].filename;
-			if (dirty & /*env*/ 16) head_changes.env = /*env*/ ctx[4];
+			const head_changes = (dirty & /*content, env*/ 18)
+			? get_spread_update(head_spread_levels, [
+					dirty & /*content*/ 2 && { title: /*content*/ ctx[1].filename },
+					dirty & /*env*/ 16 && { env: /*env*/ ctx[4] },
+					dirty & /*content*/ 2 && get_spread_object(/*content*/ ctx[1].fields)
+				])
+			: {};
+
 			head.$set(head_changes);
 
 			const switch_instance_changes = (dirty & /*content, allContent, allLayouts*/ 14)
