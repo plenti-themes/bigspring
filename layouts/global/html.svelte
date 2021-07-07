@@ -7,7 +7,7 @@
 </script>
 
 <html lang="en">
-  <Head title={content.filename} {env} />
+  <Head title={content.filename} {env} {...content.fields} />
 <body>
   <header class="navigation">
     <div class="container">

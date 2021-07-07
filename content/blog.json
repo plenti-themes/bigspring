@@ -1,3 +1,7 @@
 {
+    "meta": {
+        "desc": "List of blog posts",
+        "keywords": "Plenti, Themes, blog, pagination"
+    },
     "title": "Latest News"
 }

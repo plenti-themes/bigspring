@@ -1,4 +1,8 @@
 {
+  "meta": {
+    "desc": "Pricing levels",
+    "keywords": "Plenti, pricing, tiers, levels"
+  },
 	"components": [
         {
             "name": "page_title",

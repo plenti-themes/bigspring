@@ -1,4 +1,8 @@
 {
+  "meta": {
+    "desc": "Contact Us form",
+    "keywords": "Plenti, contact, form"
+  },
 	"components": [
         {
             "name": "page_title",

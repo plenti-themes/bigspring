@@ -1,4 +1,8 @@
 {
+  "meta": {
+    "desc": "Privacy statement",
+    "keywords": "Plenti, legal"
+  },
 	"components": [
         {
             "name": "page_title",

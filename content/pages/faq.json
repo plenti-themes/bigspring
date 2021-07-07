@@ -1,4 +1,8 @@
 {
+  "meta": {
+    "desc": "Frequently Asked Questions grid",
+    "keywords": "Plenti, FAQ, grid"
+  },
 	"components": [
         {
             "name": "page_title",

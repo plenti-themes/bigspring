@@ -1,4 +1,8 @@
 {
+  "meta": {
+    "desc": "Terms & Conditions",
+    "keywords": "Plenti, T&C, legal"
+  },
 	"components": [
         {
             "name": "page_title",

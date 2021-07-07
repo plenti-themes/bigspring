@@ -1,4 +1,8 @@
 {
+  "meta": {
+    "desc": "Bigspring is a theme for the Plentico static site generator",
+    "keywords": "Plenti, Svelte, Go, SSG, JAMstack, Themes"
+  },
 	"components": [
 		{
 			"name": "hero",

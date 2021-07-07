@@ -1,12 +1,16 @@
 <script>
-  export let title, env;
+  export let title, env, meta;
 </script>
 
 <head>
   <meta charset='utf-8'>
   <meta name='viewport' content='width=device-width,initial-scale=1'>
 
-  <title>{ title }</title>
+  <title>{ title } | Bigspring</title>
+  {#if meta}
+    <meta name="description" content="{meta.desc}">
+    <meta name="keywords" content="{meta.keywords}">
+  {/if}
   <base href="{ env.local ? "/" : env.baseurl }">
 
   <script type="module" src="spa/ejected/main.js" />
