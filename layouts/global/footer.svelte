@@ -36,10 +36,10 @@
         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur.</p>
         
         <ul class="list-inline social-icons">
-          <li class="list-inline-item"><a href="https://www.facebook.com/jantcu/"><i class="ti-facebook"></i></a></li>
-          <li class="list-inline-item"><a href="https://twitter.com/plentico"><i class="ti-twitter-alt"></i></a></li>
-          <li class="list-inline-item"><a href="."><i class="ti-skype"></i></a></li>
-          <li class="list-inline-item"><a href="https://www.linkedin.com/company/jantcu"><i class="ti-linkedin"></i></a></li>
+          <li class="list-inline-item"><a href="https://www.facebook.com/jantcu/" aria-label="Facebook"><i class="ti-facebook"></i></a></li>
+          <li class="list-inline-item"><a href="https://twitter.com/plentico" aria-label="Twitter"><i class="ti-twitter-alt"></i></a></li>
+          <li class="list-inline-item"><a href="." aria-label="Skype"><i class="ti-skype"></i></a></li>
+          <li class="list-inline-item"><a href="https://www.linkedin.com/company/jantcu" aria-label="LinkedIn"><i class="ti-linkedin"></i></a></li>
         </ul>        
       </div>
     </div>

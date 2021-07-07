@@ -118,7 +118,8 @@
 				},
 				"image": {
 					"position": "left",
-					"url": "/service-3.png"
+					"url": "/service-3.png",
+					"alt": "Generic bar chart"
 				}
 			}
 		},
