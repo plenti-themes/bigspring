@@ -14,7 +14,7 @@
         <div class="col-md-4 col-sm-6 mb-4">
             <div class="feature-card text-center">
             <i class="{item.icon} mb-3"></i>
-            <h4 class="mb-2">{item.title}</h4>
+            <div class="mb-2 h4">{item.title}</div>
             <p>{item.body}</p>
             </div>
         </div>
