@@ -1,11 +1,11 @@
 <style>
-  :global(h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6) {
+  :global(h1), :global(.h1), :global(h2), :global(.h2), :global(h3), :global(.h3), :global(h4), :global(.h4), :global(h5), :global(.h5), :global(h6), :global(.h6) {
     color: #222;
     font-family: lato,sans-serif;
     font-weight: 700;
     line-height: 1.2;
   }
-  :global(h4, .h4) {
+  :global(h4), :global(.h4) {
     font-size: 20px;
   }
   :global(body) {
@@ -18,7 +18,7 @@
   :global(.bg-light) {
     background-color: #edf6f5!important;
   }
-  :global(p, .paragraph) {
+  :global(p), :global(.paragraph) {
     font-weight: 400;
     color: #777;
     font-size: 16px;
@@ -47,14 +47,14 @@
     transition: .2s ease;
     white-space: nowrap;
   }
-  :global(.btn-primary:active, .btn-primary:hover, .btn-primary.focus, .btn-primary.active) {
+  :global(.btn-primary:active), :global(.btn-primary:hover), :global(.btn-primary.focus), :global(.btn-primary.active) {
     background-color: #0aa8a7!important;
     border-color: #0aa8a7!important;
   }
-  :global(.shadow, .feature-card:hover, .btn:hover, .btn:active, .btn:focus) {
+  :global(.shadow), :global(.feature-card:hover), :global(.btn:hover), :global(.btn:active), :global(.btn:focus) {
     box-shadow: 0 12px 24px -6px rgba(45,67,121,.1)!important;
   }
-  :global(.btn:hover::before, .btn:active::before, .btn:focus::before) {
+  :global(.btn:hover::before), :global(.btn:active::before), :global(.btn:focus::before) {
     height: 110%;
     width: 110%;
   }
@@ -80,19 +80,19 @@
     color: #222;
     border-color: transparent;
   }
-  :global(.btn:hover::before, .btn:active::before, .btn:focus::before) {
+  :global(.btn:hover::before), :global(.btn:active::before), :global(.btn:focus::before) {
     height: 110%;
     width: 110%;
   }
-  :global(.btn-outline-primary:active, .btn-outline-primary:hover, .btn-outline-primary.focus, .btn-outline-primary.active) {
+  :global(.btn-outline-primary:active), :global(.btn-outline-primary:hover), :global(.btn-outline-primary.focus), :global(.btn-outline-primary.active) {
     background-color: initial !important;
     border-color: #0aa8a7 !important;
     color: #0aa8a7;
   }
-  :global(a, a:hover, a:focus) {
+  :global(a), :global(a:hover), :global(a:focus) {
     text-decoration: none;
   }
-  :global(a, button, select) {
+  :global(a), :global(button), :global(select) {
     cursor: pointer;
     transition: .2s ease;
   }
