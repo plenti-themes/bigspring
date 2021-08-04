@@ -17,3 +17,7 @@ Every theme in Plenti is just a regular Plenti site, so you can develop it like 
 1. Download it: `git clone git@github.com:plenti-themes/bigspring`
 2. Go inside the project: `cd bigspring`
 3. Start up a local development server: `plenti serve`
+
+## Video tutorials
+
+If you're interested in a behind the scenes look at how this theme was create, check out this [YouTube Playlist](https://www.youtube.com/watch?v=wyNC7R_VVyQ&list=PLbWvcwWtuDm12y3Hye6oKDwI2gAS0ccHW).
