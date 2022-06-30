@@ -1,0 +1,1 @@
+import{writable}from"../../web_modules/svelte/store/index.mjs";export function createDataStore(e){e=e.toUpperCase(),e="PLENTI_CMS_"+e;let t=localStorage.getItem(e);t?t=JSON.parse(t):t=null;const n=writable(t);return n.subscribe(t=>{localStorage.setItem(e,JSON.stringify(t))}),n}

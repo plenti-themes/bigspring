@@ -1,1 +1,1 @@
-export let env = { local: false, baseurl: '/bigspring/'};
+export let env={local:!1,baseurl:"/bigspring/",cms:{repo:"",redirectUrl:"",appId:"",branch:""}}
