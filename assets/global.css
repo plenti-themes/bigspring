@@ -95,6 +95,14 @@ a, button, select {
   cursor: pointer;
   transition: .2s ease;
 }
+/* Fix CMS <> Bootstrap conflicts */
 .modal {
   position: initial;
+}
+fieldset {
+  border: 1px solid;
+  padding: 6px 12px;
+}
+.sidenav label {
+  margin: 0;
 }
