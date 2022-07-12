@@ -95,3 +95,6 @@ a, button, select {
   cursor: pointer;
   transition: .2s ease;
 }
+.modal {
+  position: initial;
+}
