@@ -106,3 +106,9 @@ fieldset {
 .sidenav label {
   margin: 0;
 }
+button.up,
+button.down
+button.close {
+  display: flex;
+  opacity: 1;
+}
