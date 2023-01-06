@@ -1,1 +1,0 @@
-const allBlueprints=[{pager:1,type:"pages",path:"blueprint",filepath:"content/pages/_blueprint.json",filename:"_blueprint.json",fields:{}},{pager:1,type:"posts",path:"blog/-blueprint",filepath:"content/posts/_blueprint.json",filename:"_blueprint.json",fields:{}}];export default allBlueprints

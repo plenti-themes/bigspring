@@ -1,1 +1,1 @@
-export let env={local:!1,baseurl:"/bigspring/",cms:{repo:"",redirectUrl:"",appId:"",branch:""}}
+export let env={local:!1,baseurl:"/bigspring/",entrypoint:"global/html.svelte",cms:{repo:"",redirectUrl:"",appId:"",branch:""}}
