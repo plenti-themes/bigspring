@@ -11,7 +11,7 @@
     <meta name="description" content="{meta.desc}">
     <meta name="keywords" content="{meta.keywords}">
   {/if}
-  <base href="{ env.local ? "/" : env.baseurl }">
+  <base href="{env.baseurl}">
 
   <script type="module" src="spa/ejected/main.js" />
 

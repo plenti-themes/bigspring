@@ -2,7 +2,7 @@
   import Pagination from '../components/pagination.svelte';
   export let title, allContent, content;
 
-  $: currentPage = content.pager;
+  $: currentPage = content.pager ?? 1;
   let postsPerPage = 3;
   let allPosts = allContent.filter(content => content.type == "posts");
   let totalPosts = allPosts.length;
