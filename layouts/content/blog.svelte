@@ -24,7 +24,7 @@
       <div class="col-12 mb-5 pb-5">
         <div class="row align-items-center">
           <div class="col-md-6 mb-4 mb-md-0">
-            <img src="assets/{post.fields.image.src}" alt="{post.fields.image.alt}" class="img-fluid rounded-lg w-100">
+            <img src="{post.fields.image.src}" alt="{post.fields.image.alt}" class="img-fluid rounded-lg w-100">
           </div>
           <div class="col-md-6">
             <h2><a href="{post.path}" class="post-title">{post.fields.title}</a></h2>
@@ -39,7 +39,7 @@
         {#if i >= postRangeLow && i < postRangeHigh}
             <div class="col-lg-4 col-sm-6 mb-5">
                 <div class="card border-0">
-                <img src="assets/{post.fields.image.src}" alt="{post.fields.image.alt}" class="card-img rounded-lg mb-4">
+                <img src="{post.fields.image.src}" alt="{post.fields.image.alt}" class="card-img rounded-lg mb-4">
                 <div class="card-body p-0">
                     <h3><a href="{post.path}" class="post-title">{post.fields.title}</a></h3>
                     <p class="card-text">{post.fields.body.substring(0, 175).replace(/(<([^>]+)>)/gi, "")}</p>

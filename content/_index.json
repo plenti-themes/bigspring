@@ -13,7 +13,7 @@
 					"title": "Contact with Us",
 					"url": "contact"
 				},
-				"image": "/banner-art.svg"
+				"image": "media/banner-art.svg"
 			}
 		},
 		{
@@ -67,7 +67,7 @@
 				},
 				"image": {
 					"position": "right",
-					"url": "/service-3.png",
+					"url": "media/service-3.png",
 					"alt": "Net income chart"
 				}
 			}
@@ -84,7 +84,7 @@
 				},
 				"image": {
 					"position": "left",
-					"url": "/service-1.png",
+					"url": "media/service-1.png",
 					"alt": "Revenue chart"
 				}
 			}
@@ -101,7 +101,7 @@
 				},
 				"image": {
 					"position": "right",
-					"url": "/service-2.png",
+					"url": "media/service-2.png",
 					"alt": "Generic bar chart"
 				}
 			}
@@ -118,7 +118,7 @@
 				},
 				"image": {
 					"position": "left",
-					"url": "/service-3.png",
+					"url": "media/service-3.png",
 					"alt": "Generic bar chart"
 				}
 			}
@@ -128,7 +128,7 @@
 			"fields": {
 				"title": "Experience the best workflow with us",
 				"image": {
-					"url": "/screenshot.svg",
+					"url": "media/screenshot.svg",
 					"alt": "People doing different marketing activities"
 				}
 			}
@@ -140,7 +140,7 @@
 				"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur.",
 				"image": {
 					"alt": "Two people building a webpage",
-					"url": "/cta.svg"
+					"url": "media/cta.svg"
 				},
 				"link": {
 					"url": "contact",

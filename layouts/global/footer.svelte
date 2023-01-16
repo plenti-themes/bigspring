@@ -32,7 +32,7 @@
         
       </div>
       <div class="col-md-3 col-sm-6 mb-5">
-        <a class="d-block mb-3" href="."><img width="200px" class="img-fluid" src="assets/logo.png" alt="Bigspring Hugo"></a>
+        <a class="d-block mb-3" href="."><img width="200px" class="img-fluid" src="logo.png" alt="Bigspring Hugo"></a>
         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur.</p>
         
         <ul class="list-inline social-icons">

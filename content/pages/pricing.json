@@ -78,7 +78,7 @@
 				"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur.",
 				"image": {
 					"alt": "Two people building a webpage",
-					"url": "/cta.svg"
+					"url": "media/cta.svg"
 				},
 				"link": {
 					"url": "/contact",

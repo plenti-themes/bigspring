@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
   <a class="navbar-brand" href=".">
-    <img width="200px" class="img-fluid" src="assets/logo.png" alt="Bigspring Hugo">
+    <img width="200px" class="img-fluid" src="logo.png" alt="Bigspring Hugo">
   </a>
 
   <button class="navbar-toggler border-0 collapsed" type="button" data-toggle="collapse" data-target="#navigation" aria-expanded="false">
