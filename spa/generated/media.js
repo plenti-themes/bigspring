@@ -1,0 +1,1 @@
+let allMedia=["media/banner-art.svg","media/bigspring.png","media/cta.svg","media/post-1.jpg","media/post-2.jpg","media/post-3.jpg","media/screenshot.svg","media/service-1.png","media/service-2.png","media/service-3.png"];export default allMedia
