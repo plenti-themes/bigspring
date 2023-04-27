@@ -1,1 +1,1 @@
-const allComponentSchemas={};export default allComponentSchemas
+const allComponentSchemas={faq:{"fields.items":{type:"components",options:["faq_item"]}}};export default allComponentSchemas
