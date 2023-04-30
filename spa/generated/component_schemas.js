@@ -1,1 +1,1 @@
-const allComponentSchemas={blurbs:{"fields.items":{type:"components",options:["blurb"]}},faq:{"fields.items":{type:"components",options:["faq_item"]}}};export default allComponentSchemas
+const allComponentSchemas={blurbs:{"fields.items":{type:"components",options:["blurb"]}},body:{name:{type:"text",options:["disabled"]},"fields.body":{type:"wysiwyg",options:["bold","italic","bullets","numbers","link","unlink","heading2","heading3","heading4","clear"]}},faq:{"fields.items":{type:"components",options:["faq_item"]}}};export default allComponentSchemas

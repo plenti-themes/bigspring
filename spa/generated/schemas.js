@@ -1,1 +1,1 @@
-const allSchemas={};export default allSchemas
+const allSchemas={pages:{components:{type:"components",options:["blurbs","body","faq"]}}};export default allSchemas
