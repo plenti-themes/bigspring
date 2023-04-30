@@ -1,0 +1,10 @@
+{
+    "components": {
+        "type": "components",
+        "options": [
+            "blurbs",
+            "body",
+            "faq"
+        ]
+    }
+}

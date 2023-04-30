@@ -1,0 +1,23 @@
+{
+    "name": {
+        "type": "text",
+        "options": [
+            "disabled"
+        ]
+    },
+    "fields.body": {
+        "type": "wysiwyg",
+        "options": [
+            "bold",
+            "italic",
+            "bullets",
+            "numbers",
+            "link",
+            "unlink",
+            "heading2",
+            "heading3",
+            "heading4",
+            "clear"
+        ]
+    }
+}
