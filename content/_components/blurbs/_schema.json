@@ -1,0 +1,8 @@
+{
+    "fields.items": {
+        "type": "components",
+        "options": [
+            "blurb"
+        ]
+    }
+}
