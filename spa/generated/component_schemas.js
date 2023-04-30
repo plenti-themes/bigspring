@@ -1,1 +1,1 @@
-const allComponentSchemas={faq:{"fields.items":{type:"components",options:["faq_item"]}}};export default allComponentSchemas
+const allComponentSchemas={blurbs:{"fields.items":{type:"components",options:["blurb"]}},faq:{"fields.items":{type:"components",options:["faq_item"]}}};export default allComponentSchemas
